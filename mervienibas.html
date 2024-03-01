@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Informācijas daudzuma mērvienības</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/mansStils.css">
+    </head>
+    <body id="mervienibas">
+        <h1>Informācijas daudzuma mērvienības</h1>
+        <form>
+            <p><input type="text" name="n">
+            GB=</p>
+            <p><input type="button" value="Izteikt megabaitos" onclick="res1.value=n.value*1000">
+            <input type="text" name="res1">
+            MB</p>
+            <p><input type="button" value="Izteikt mibibaitos" onclick="res2.value=n.value*10**9/2**20">
+            <input type="text" name="res2">
+            MiB</p>
+        </form>
+    </body>
+</html>
